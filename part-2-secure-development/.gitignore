@@ -1,0 +1,9 @@
+node_modules/
+dist/
+backend/node_modules/
+backend/dist/
+backend/penguwave.db
+backend/penguwave.db-wal
+backend/penguwave.db-shm
+.env
+.env.*
