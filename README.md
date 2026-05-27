@@ -1,4 +1,4 @@
-# Home Assignment - Software Engineering
+# Home Assignment - Upwind Security
 
 ## Structure
 
