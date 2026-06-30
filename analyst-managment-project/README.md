@@ -1,4 +1,4 @@
-# PenguWave: Security Operations Portal
+# Analyst managment project
 
 A full-stack security operations portal for monitoring security events. Built with React + Vite (frontend) and Express + SQLite (backend).
 
@@ -27,7 +27,7 @@ The backend runs at http://localhost:3001. On first start it creates a SQLite da
 
 ### 2. Start the frontend
 
-From the project root (`part-2-secure-development`):
+From the project root (`analyst-managment-project`):
 
 ```bash
 npm install

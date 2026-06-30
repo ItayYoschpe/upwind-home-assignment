@@ -1,4 +1,4 @@
-# Part 1 - Gmail Add-on: Malicious Email Scorer
+# Malicious email project
 
 A Gmail Card-based add-on that analyzes an opened email and produces a
 maliciousness score (0-100), a clear verdict (Safe / Suspicious / Malicious),

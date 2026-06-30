@@ -1,6 +1,6 @@
-# Home Assignment - Software Engineering
+# Software Engineering Projects
 
 ## Structure
 
-- **Part 1 - Gmail Add-on:** Malicious Email Scorer → [part-1-gmail-addon/README.md](part-1-gmail-addon/README.md)
-- **Part 2 - Secure Development:** Backend Implementation → [part-2-secure-development/README.md](part-2-secure-development/README.md)
+- **Malicious email project** → [malicious-email-project/README.md](malicious-email-project/README.md)
+- **Analyst managment project** → [analyst-managment-project/README.md](analyst-managment-project/README.md)
