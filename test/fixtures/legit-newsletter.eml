@@ -1,0 +1,38 @@
+From: "Acme Weekly" <newsletter@acme.com>
+To: subscriber@example.com
+Subject: Your Acme Weekly digest - February 12
+Date: Thu, 12 Feb 2026 08:00:00 +0000
+MIME-Version: 1.0
+Authentication-Results: mx.example.com; spf=pass smtp.mailfrom=acme.com; dkim=pass header.d=acme.com; dmarc=pass
+Received-SPF: pass (mx.example.com: domain of acme.com designates permitted sender)
+Content-Type: multipart/alternative; boundary="alt-boundary-3"
+
+--alt-boundary-3
+Content-Type: text/plain; charset="utf-8"
+
+Hi there,
+
+Here's what shipped this week on the Acme blog:
+
+- New pricing page: https://acme.com/pricing
+- Release notes: https://acme.com/changelog
+- Customer story: https://acme.com/stories/globex
+
+Thanks for reading,
+The Acme Team
+
+--alt-boundary-3
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Hi there,</p>
+<p>Here's what shipped this week on the Acme blog:</p>
+<ul>
+<li><a href="https://acme.com/pricing">New pricing page</a></li>
+<li><a href="https://acme.com/changelog">Release notes</a></li>
+<li><a href="https://acme.com/stories/globex">Customer story</a></li>
+</ul>
+<p>Thanks for reading,<br/>The Acme Team</p>
+</body></html>
+
+--alt-boundary-3--

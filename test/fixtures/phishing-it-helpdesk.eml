@@ -1,0 +1,50 @@
+From: "IT Helpdesk Support Team" <support.helpdesk@gmail.com>
+To: employee@example.com
+Subject: Password Expiration - Immediate Action Required
+Date: Wed, 14 Feb 2026 16:02:05 +0000
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="mixed-boundary-2"
+
+--mixed-boundary-2
+Content-Type: multipart/alternative; boundary="alt-boundary-2"
+
+--alt-boundary-2
+Content-Type: text/plain; charset="utf-8"
+
+Dear User,
+
+Your password will expire soon. To avoid losing access, please enter your
+password at the link below within 48 hours. This requires immediate action
+from the IT department.
+
+Confirm now: https://bit.ly/reset-pw-now
+
+The attached archive contains the updated security policy. Use password
+"policy2026" to open it.
+
+IT Helpdesk Support Team
+
+--alt-boundary-2
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Dear User,</p>
+<p>Your password will expire soon. To avoid losing access, please
+<b>enter your password</b> at the link below within 48 hours. This requires
+immediate action from the IT department.</p>
+<p><a href="https://bit.ly/reset-pw-now">Confirm now</a></p>
+<p>The attached archive contains the updated security policy. Use password
+"policy2026" to open it.</p>
+<p>IT Helpdesk Support Team</p>
+</body></html>
+
+--alt-boundary-2--
+--mixed-boundary-2
+Content-Type: application/zip; name="Security_Policy.zip"
+Content-Disposition: attachment; filename="Security_Policy.zip"
+Content-Transfer-Encoding: base64
+
+VGhpcyBpcyBhIGhhcm1sZXNzIHBsYWNlaG9sZGVyIHBheWxvYWQgdXNlZCBvbmx5IGZvciB0ZXN0
+IGZpeHR1cmVzLg==
+
+--mixed-boundary-2--

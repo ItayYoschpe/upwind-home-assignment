@@ -1,0 +1,48 @@
+{
+  "name": "malicious-email-project",
+  "version": "1.0.0",
+  "description": "A Gmail add-on that scores emails 0-100 for phishing/malicious risk with an explainable heuristic engine, plus a local CLI for development and testing.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "analyze-email": "./dist/cli/index.js"
+  },
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "analyze": "tsx src/cli/index.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node dist/cli/index.js",
+    "build:gas": "esbuild apps-script/src/main.ts --bundle --format=iife --target=es2019 --outfile=apps-script/dist/Code.gs",
+    "typecheck": "tsc --noEmit && tsc --noEmit -p apps-script/tsconfig.json",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "mailparser": "^3.7.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/google-apps-script": "^1.0.87",
+    "@types/mailparser": "^3.4.5",
+    "@types/node": "^22.10.2",
+    "esbuild": "^0.28.1",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.4.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.2",
+    "vitest": "^4.1.10"
+  }
+}
